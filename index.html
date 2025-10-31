@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30 Days of Tanvi 💖</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Dancing+Script:wght@400;600;700&family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Floating hearts background animation -->
+    <div class="floating-hearts" id="floatingHearts"></div>
+    
+    <!-- Music toggle button -->
+    <button class="music-toggle" id="musicToggle" aria-label="Toggle music">
+        <svg class="music-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M9 18V5l12-2v13"></path>
+            <circle cx="6" cy="18" r="3"></circle>
+            <circle cx="18" cy="16" r="3"></circle>
+        </svg>
+        <span class="music-text">Play Music</span>
+    </button>
+    
+    <!-- Hidden audio element -->
+    <audio id="backgroundMusic" loop>
+        <source src="https://assets.mixkit.co/music/preview/mixkit-piano-reflections-188.mp3" type="audio/mpeg">
+    </audio>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">30 Days of Tanvi 💖</h1>
+            <p class="hero-subtitle">A Story for Every Day of November</p>
+            <div class="hero-decoration">✨</div>
+        </div>
+    </section>
+    
+    <!-- Days Container -->
+    <div class="container">
+        <div id="daysContainer" class="days-grid"></div>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <p class="footer-text">Made with love by [Your Name] 💕</p>
+    </footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>
